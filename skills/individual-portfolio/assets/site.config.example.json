@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "identity": {"name": "", "specialty": "", "audience": "", "language": "ru", "site_url": ""},
+  "hero": {"headline": "", "description": "", "cta_label": "Обсудить проект", "cta_target": "#contact"},
+  "theme": {
+    "mode": "light",
+    "direction": "editorial",
+    "colors": {
+      "background": "#F4F2EB", "surface": "#FFFFFF", "text": "#202528",
+      "muted": "#545B62", "accent": "#234C46", "on_accent": "#FFFFFF", "border": "#D4D7D1"
+    },
+    "fonts": {
+      "heading": {"family": "Georgia", "fallback": "serif", "files": []},
+      "body": {"family": "Arial", "fallback": "sans-serif", "files": []}
+    },
+    "radius_px": 4,
+    "max_width_px": 1200,
+    "density": "airy",
+    "motion": "subtle"
+  },
+  "layout": {
+    "hero": "split", "navigation": "top", "gallery": "editorial",
+    "sections": ["hero", "work", "about", "services", "process", "faq", "contact"],
+    "project_pages": false
+  },
+  "catalog": {
+    "categories": [], "filters": true, "search": false, "sort": "manual",
+    "show_captions": true, "lightbox": true, "image_fit": "contain"
+  },
+  "content": {"about": "", "services": [], "process": [], "faq": [], "proof": []},
+  "pricing": {"mode": "on-request", "currency": "", "packages": []},
+  "contact": {"mode": "links", "email": "", "links": [], "form_provider": ""},
+  "admin": {"enabled": true, "language": "ru"},
+  "seo": {"title": "", "description": "", "social_image": ""}
+}
